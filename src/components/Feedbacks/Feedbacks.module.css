@@ -1,0 +1,24 @@
+.list {
+  align-items: center;
+  justify-content: center;
+  
+}
+.item{
+    display: block;
+    justify-content: center;
+}
+.item:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.button {
+    text-transform: capitalize;
+    padding: 5px 15px;
+    width: 100px;
+}
+
+.button:hover {
+    background-color:rgb(240, 78, 167);
+    border: 2px solid rgb(18, 233, 43);
+    border-radius: 3px;
+}
